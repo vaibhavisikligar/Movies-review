@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* input filed text number email address */
+.inputfiled {
+    @apply block w-full border border-[#D9DBDA] bg-[#FBFBFB] min-h-[44px] py-2.5 px-4 text-sm rounded-lg leading-normal text-[#495057] transition-all ease-in-out duration-150 bg-clip-padding focus:border-black outline-none
+}
+
+/* sigup login add update button */
+.buttonStyle {
+    @apply rounded-full border-2 border-black hover:text-black hover:bg-white transition-all ease-in-out duration-300 py-1 px-7 lg:px-8 text-base sm:text-lg font-medium text-white bg-black
+}
+
+.buttonStyle1 {
+    @apply border-2 border-black hover:text-black hover:bg-white transition-all ease-in-out duration-300 py-1 px-7 lg:px-8 text-base sm:text-lg font-medium text-white bg-black
+}
+
+
+/* singup */
+.errorclass {
+    @apply text-red-700 text-lg font-bold
+}
